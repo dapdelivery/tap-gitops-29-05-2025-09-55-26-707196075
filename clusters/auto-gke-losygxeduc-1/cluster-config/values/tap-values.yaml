@@ -1,0 +1,10 @@
+---
+tap_install:
+  values:
+    profile: view
+    ceip_policy_disclosed: true
+    
+    contour:
+      envoy:
+        service:
+          type: LoadBalancer
